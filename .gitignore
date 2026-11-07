@@ -1,0 +1,32 @@
+# ===== 安全：签名文件与密码文件，绝对禁止上传 =====
+*.jks
+*.keystore
+gradle.properties
+local.properties
+
+# ===== 构建缓存与产物 =====
+.gradle/
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ===== 本地临时与备份 =====
+*.7z
+*.zip
+*.log
+.kotlin/
+.dsh-office-*/
+*.hprof
+capture/
+
+# 软著申请材料（含个人信息，不公开）
+资料文件夹/
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
